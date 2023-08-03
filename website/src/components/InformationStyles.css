@@ -1,0 +1,58 @@
+.textinfo{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 4.5rem;
+   
+}
+
+.information{
+    margin: 4rem 6rem;
+}
+
+
+.information h1{
+    font-size: 3rem;
+}
+
+.text p{
+    width: 90%;
+    text-align: 80%;
+    font-size: 1.3rem;
+}
+
+.{
+display: flex;
+}
+
+
+
+
+@media screen and (max-width: 850px)
+{
+    .information{
+        margin: 4rem 2rem;
+    }
+
+    .textinfo{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 2.5rem;
+     }
+
+     .text p{
+        width: 100%;
+        margin: 1.8rem 0;
+     }
+
+     .image{
+        width: 90%;
+        margin: 1.8rem 0;
+     }
+
+     .image img{
+        height: 250px;
+     }
+ }

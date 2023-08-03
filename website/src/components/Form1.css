@@ -1,0 +1,50 @@
+/* ContactFormStyles.css */
+
+.form-container {
+    margin: 4rem 6rem;
+    color: #2a2a2a;
+  }
+
+  .form-container form{
+   
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 10%;
+    margin: auto;
+}
+  
+.form-container input{
+    height: 3rem;
+    padding: 0 1rem;
+    margin-bottom: 2rem;
+    border-radius: 0.3rem;
+    border: 1px solid #2a2a2a;
+
+}
+
+
+  input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-container button{
+    display: inline;
+    background-color: #2a2a2a;
+    color: #fff;
+    border-radius: 10px;
+    height: 50px;
+
+}
+  button:hover {
+    background-color: #498453;
+  }
+  
+  p {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
